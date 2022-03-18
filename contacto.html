@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="D-ST/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="D-ST/galeria.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <title>UDI</title> 
+   
+</head> 
+<body>
+    
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-sm-4 offset-md-1 py-4">
+              
+              <ul class="list-unstyled">
+                <li><a href="INDEX.html" class="text-white">HOME</a></li>
+                <li><a href="contacto.html" class="text-white">Contacto</a></li>
+                <li><a href="nosotros.html" class="text-white">Nosotros</a></li>
+                <li><a href="galeria.html" class="text-white">Galeria</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="INDEX.html" class="navbar-brand d-flex align-items-center">
+            <img src="logueishon .png" width="50%" height="45 class="d-block w-100" >            
+            <strong>UDI</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <br><br><br>
+    
+    <div style =" text-align: center ">
+        <iframe class="mapa" src="https://www.google.com.mx/maps/dir/Rancho+Don+Antonio,+43810+Hgo./''/@19.87394,-98.93808,16z/data=!4m13!4m12!1m5!1m1!1s0x85d190d0578fcc8b:0x308a18dee66b92b0!2m2!1d-98.9344657!2d19.8757849!1m5!1m1!1s0x85d190d0578fcc8b:0x308a18dee66b92b0!2m2!1d-98.9344657!2d19.8757849" width="600" height="450" style="border: 3px;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+  <main>
+    
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+    <section class="section-form">
+        <form action="" name="form">
+            <fieldset>
+                <legend>Contactanos</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre...">
+                <br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Escribe tu Apellido...">
+                <br><br>
+                <label for="sexo">Sexo</label><br>
+                <input type="radio" name="sexo" id="F">                    
+                <label for="F">Femenino</label><br>
+                <input type="radio" name="sexo" id="M">
+                <label for="M">Masculino</label>
+                <br><br>
+                <label for="correo">Correo Electronico*</label>
+                <input type="email" required name="correo" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Ingrese un correo Valido" placeholder="ejemplo@gmail.com...">
+                <br><br>
+                <label for="telefono">Numero de Telefono</label>
+                <input type="tel" name="telefono" pattern="[0-9]{10}" title="Ingrese numero de 10 dijitos" placeholder="123456789">
+                <br><br>
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" placeholder="Escribe tu Direccion Actual...">
+                <br><br>
+                <label for="comentarios">Comentarios</label>
+                <input type="text" name="comentarios" placeholder="Escribe un Comentario...">
+                <br><br>
+                <input type="checkbox" name="terminos" id="terminos" onclick="boton.disabled = !this.checked">
+                <label for="terminos">Acepta los Terminos y Condiciones</label>
+                <br><br>
+               
+                  <br><input type="submit" name="boton" value="Enviar" id="Enviar" disabled onclick="alert('Se envio su Mensaje, Gracias Por Su Preferencia =^)')"> 
+                </div>
+            </fieldset>
+        </form>
+      
+    </section>
+    </section>
+    
+  </main>
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">inicio</a>
+          <p class="mb-1">UDI &copy; Parctica3</p>
+          <p>Desarrollado por;</p>
+          <p>MENDOZA MONTES ANDREA MONSERRAT</p>
+    
+        </p>
+        
+    </footer>
+    
+    
+        <script src="D-ST/bootstrap.bundle.min.js"></script>
+</body>
+</html>
